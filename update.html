@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPDATE</title>
+    <link rel="stylesheet" href="update.css">
+
+</head>
+<body>
+    <form onsubmit="submitForm(); return false;">
+        <h1 id="head">Update all your necessary information</h1>
+        <label for="choirsterID" id="choirsterIDLabel">Choirster ID:</label>
+        <input type="text" id="choirsterID" name="choirsterID" required>
+
+        <label for="userInput" id="new">New input:</label>
+        <input type="text" id="userInput" name="userInput" required>
+
+        <label for="dropdownMenu" id="select">Select the field you want to update:</label>
+        <select id="dropdownMenu" name="dropdownMenu" required>
+            <option value="option1">Full Name</option>
+            <option value="option3">Program of Study</option>
+            <option value="option4">Campus Location</option>
+            <option value="option6">Active Whatsapp Number</option>
+            <option value="option8">Circuit</option>
+            <option value="option9">Diocese</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="update.js"></script>
+</body>
+</html>
