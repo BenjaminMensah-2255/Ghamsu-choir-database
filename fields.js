@@ -23,20 +23,9 @@ function validateForm(event) {
         Diocese: document.getElementById('Diocese').value,
     };
 
-    fetch('', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-        alert("Form submitted successfully!");
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert("An error occurred while submitting the form.");
-    });
+    
+    document.getElementById('choirForm').reset();
+
+    alert("Form submitted successfully!");
+    
 }
