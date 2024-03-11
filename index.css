@@ -36,10 +36,10 @@ body, html {
     color: #eee; 
 }
 
-#add,
-#update {
+#add {
     background-color: blueviolet;
     border-radius: 20px;
+    border: 2px solid #fff;
     font-weight: bold;
     font-size: 24px; 
     color: #fff;
@@ -47,21 +47,53 @@ body, html {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     text-decoration: none; 
-}
-
-#update {
     margin-left: 20px;
 }
 
-#add:hover,
-#update:hover {
+#update {
+    background-color: darkorange;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    font-size: 24px; 
+    color: #fff;
+    padding: 12px 24px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; 
+    margin-left: 20px;
+}
+
+#Attendance {
+    background-color: forestgreen;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    font-size: 24px; 
+    color: #fff;
+    padding: 12px 24px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; 
+    margin-left: 20px;
+}
+
+#add:hover {
     background-color: #fff;
     color: blueviolet;
+}
+
+#update:hover {
+    background-color: #fff;
+    color: darkorange;
+}
+
+#Attendance:hover {
+    background-color: #fff;
+    color: forestgreen;
 }
 
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
-
-
