@@ -42,6 +42,10 @@ input {
     border-radius: 5px;
     outline: none;
 }
+select:focus, input:focus {
+    border-color: #a2d2a4;
+}
+
 
 button {
     background-color: #8f4fcf;

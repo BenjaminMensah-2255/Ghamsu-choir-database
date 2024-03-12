@@ -64,7 +64,7 @@ button:hover {
 #new,
 #select,
 #choirsterIDLabel {
-    color: #aba003;
+    color: darkorange;
     font-weight: bolder;
 }
 select {
